@@ -3,7 +3,7 @@
 ## Como Rodar
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/victor-rocha1/desafio-estagio
 ```
 2. **Acesse o diretório do projeto:**
 ```bash
