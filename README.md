@@ -12,4 +12,4 @@ No arquivo exercicio02.py, desenvolvi uma função que gera a sequência de Fibo
 Gera a sequência de Fibonacci até que o valor máximo (n) seja atingido ou ultrapassado. Ela constrói uma lista onde cada novo número é a soma dos dois números anteriores.
 
  - Função Principal main():
-Responsável pela interação com o usuário. Ela:
+Responsável pela interação com o usuário.
