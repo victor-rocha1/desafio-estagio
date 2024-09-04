@@ -13,3 +13,7 @@ Gera a sequência de Fibonacci até que o valor máximo (n) seja atingido ou ult
 
  - Função Principal main():
 Responsável pela interação com o usuário.
+
+## Exercício 04
+ - Mudei a estrutura do arquivo Json
+ - Adicionei uma div somente para exibir os resultados por estados, com a mesma estrutura da anterior

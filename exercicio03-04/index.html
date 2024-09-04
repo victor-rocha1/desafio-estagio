@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Análise de Faturamento Mensal</title>
     
-    <!-- Link para o CSS do Bootstrap -->
+    <!-- Bootstrap -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Link para seus estilos personalizados -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,13 +17,24 @@
             <h1 class="display-4">Análise de Faturamento Mensal</h1>
             <p class="lead">Detalhes do faturamento diário durante o mês.</p>
             <button class="btn btn-primary mt-3" onclick="calcularFaturamento()">Calcular Faturamento</button>
+            <button id="limpar-btn" class="btn btn-danger mt-3" onclick="limpar()" style="display: none;">Limpar Visualização</button>
         </div>
 
         <div id="resultado" class="mt-4"></div>
+
+        <!-- Faturamento por Estado -->
+        <div id="faturamento-estado-card" class="card my-4" style="display: none;">
+            <div class="card-header">
+                <h2>Percentual de Faturamento por Estado</h2>
+            </div>
+            <div class="card-body" id="faturamento-estado">
+
+            </div>
+        </div>
     </div>
 
     <!-- JS do Bootstrap -->
-    <script src="https://c  ode.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
 
     <script src="script.js"></script>
