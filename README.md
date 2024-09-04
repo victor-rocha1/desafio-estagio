@@ -1,19 +1,48 @@
 # Desafio Prático - Estágio
+
+## Como Rodar
+1. **Clone o repositório:**
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+2. **Acesse o diretório do projeto:**
+```bash
+cd seu-repositorio
+```
+
+3. **Execute os scripts conforme necessário:**
+```bash
+python exercicio02.py
+```
 ## Exercício 01
-Enquanto K < INDICE faça { K = K + 1; SOMA = SOMA + K; }
+```int INDICE = 13, SOMA = 0, K = 0;
+Enquanto K < INDICE faça { 
+    K = K + 1; 
+    SOMA = SOMA + K; }
 Imprimir(SOMA);
-Ao final do processamento, qual será o valor da variável SOMA?
-Resposta: 91
+```
+Resposta: **91**
 
 ## Exercício 02
-No arquivo exercicio02.py, desenvolvi uma função que gera a sequência de Fibonacci até um valor máximo n e permite ao usuário verificar se um número informado pertence a essa sequência.
+Exemplificar o uso da lógica de fibonacci
+A resolução se encontra no arquivo **"exercicio02.py"**
+Foi feito em **Python**
 
- - Função num_fibonacci(n):
-Gera a sequência de Fibonacci até que o valor máximo (n) seja atingido ou ultrapassado. Ela constrói uma lista onde cada novo número é a soma dos dois números anteriores.
-
- - Função Principal main():
-Responsável pela interação com o usuário.
+## Exercício 03
+Analisar dados de um arquivo json e retornar os indicadores mensais como:
+- Dia de maior e menor faturamento
+- Dias com faturamento acima da média
+A lógica foi desenvolvida em **exercicio03-04** no arquivo **script.js**.
+Foi feito em **JavaScript**
 
 ## Exercício 04
- - Mudei a estrutura do arquivo Json
- - Adicionei uma div somente para exibir os resultados por estados, com a mesma estrutura da anterior
+Complemento do exercício 3 com adição de dados no arquivo json, gerando uma visualisação geral por estado.
+Foi feito em **JavaScript**
+
+## Exercício 05
+Reversão de uma string fornecida pelo usuário.
+Foi feito em **Python**
+
+## Tecnologias Utilizadas
+- Python
+- JavaScript
